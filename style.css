@@ -13,10 +13,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: black;
+    background: linear-gradient(90deg, black, darkred, red, darkorange, orange, yellow);
     color: white;
     width: 100%;
     margin-top: 10px;
+   
 }
 
 .brand-title {
@@ -53,6 +54,13 @@ body {
     transition: 0.3s;
 }
 
+.main{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, darkorange, yellow);
+}
+
 @media (max-width: 768px) {
     .toggle-button {
         display: flex;
@@ -76,5 +84,10 @@ body {
 
     .navbar-links.active {
         display: flex;
+    }
+    .main{
+        width: 100%;
+        height: 200px;
+        background: linear-gradient(90deg, darkorange, yellow);
     }
 }
