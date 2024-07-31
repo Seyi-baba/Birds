@@ -1,28 +1,77 @@
-body{
-   font-size:  65.2%;
-   margin: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-nav{
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    background-color: #000000;
-    width: 100%;
-    padding: 10px;
-
-
+    padding: 1rem;
+    background-color: #333;
+    color: white;
 }
-#hamburger{
-    width: 80px;   
-    font-size: x-small;
+
+.brand-title {
+    font-size: 1.5rem;
 }
-.cp72{
-    width: 80px;
-    /* background-color: aqua; */
-    margin-bottom: 5px;
-    text-align: center;
-    font-family: Bahnschrift SemiBold;
-    color: lawngreen;
-    height: 30px;
+
+.navbar-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    padding: 0 1rem;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .toggle-button {
+        display: flex;
+    }
+    
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
