@@ -1,0 +1,25 @@
+body{
+   font-size:  65.2%;
+   margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+    width: 100%;
+    padding: 0 10px;
+
+
+}
+#hamburger{
+    width: 60px;   
+   
+}
+.cp72{
+    width: 50px;
+    background-color: aqua;
+    margin-bottom: 5px;
+    text-align: center;
+}

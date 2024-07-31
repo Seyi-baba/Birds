@@ -1,0 +1,12 @@
+ <div class="bar-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Aims and Objectives</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Protected Birds</a></li>
+            <li><a href="#">Bird Sanctuaries</a></li>
+            <li><a href="#">Conservation</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+       </div>
